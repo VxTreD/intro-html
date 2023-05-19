@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
-
+<!--comments-->
+<!--for js //-->
 <head>
+    <!--EL STILO-->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <video autoplay muted loop id="videobg">
-        <source
-            src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/2256790/d7d3fcfc0e4efa94bfbbb6fb7d6dc8e10cfd00e8.mp4"
-            type="video/mp4">
-        Your browser does not support HTML5 video.
-    </video>
+     <!--chamando o arquivo js-->
+     <script src="engine.js"></script>    
 
+    <!--deixando pesado propositalmente--> 
+    <div class="background">
+        <video autoplay muted loop id="videobg">
+            <source
+                src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/2256790/d7d3fcfc0e4efa94bfbbb6fb7d6dc8e10cfd00e8.mp4"
+                type="video/mp4">
+        </video>
+    </div>    
+
+    <!--caixa de cookies (futuramente)-->
     <div class="content">
         <h1>Aceitar</h1>
-        <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis
-            neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine
-            molestiae, ad mutat oblique delicatissimi pro.</p>
-        <button id="butao" onclick="myFunction()">Pause</button>
+        <p>Teste de texto para cookies.</p>
+    <!--teste de java simples-->
+        <button id="butao" onclick="butao()">clica aqui</button>
     </div>
 
 </body>
