@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: azo-sans-web, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+#videobg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+#butao {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  opacity: 90%;
+  border: none;
+  border-radius: 10px;
+  background: #8400ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
