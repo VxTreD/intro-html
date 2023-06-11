@@ -2,6 +2,84 @@
   box-sizing: border-box;
 }
 
+h1.normal, h2.normal, h3.normal, h4.normal, h5.normal, h6.normal{
+  position:relative;
+  color:rgb(255, 255, 255);
+  font-family: azo-sans-web, sans-serif;
+  font-style: normal;
+}
+
+a.normal {
+  position:relative;
+  margin: 5px;
+  color:rgb(255, 255, 255);
+  font-family: azo-sans-web, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+/*.blink {
+  position:relative;
+  animation: blinker 2s linear infinite;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+  opacity: 0;
+}
+}
+*/
+
+p.normal {
+  position:relative;
+  margin: 0px;
+  color:rgb(255, 255, 255);
+  font-family: azo-sans-web, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+h1.bold {
+  position:relative;
+  margin: 5px;
+  color:rgb(255, 255, 255);
+  font-family: azo-sans-web, sans-serif;
+  font-style: bold;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+p.italic {
+  position:relative;
+  margin: 5px;
+  color:rgb(255, 255, 255);
+  font-family: azo-sans-web, sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+#background{
+  position:relative;
+  
+}
+
+header{
+  position:absolute;
+  top:0;
+  transition:all .2s ease-in-out;
+  z-index:1000;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.911);
+  border-radius: 0 0 5px 5px;
+  padding: 25px;
+  /*box-shadow:rgba(255, 255, 255, 0.322) 10px 10px 50px;*/
+}
+
 body {
   margin: 0;
   font-family: azo-sans-web, sans-serif;
@@ -21,8 +99,7 @@ body {
 .content {
   position: fixed;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
+  background: rgb(0, 0, 0);
   width: 100%;
   padding: 20px;
 }
