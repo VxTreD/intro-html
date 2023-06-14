@@ -2,90 +2,314 @@
   box-sizing: border-box;
 }
 
-h1.normal, h2.normal, h3.normal, h4.normal, h5.normal, h6.normal{
-  position:relative;
-  color:rgb(255, 255, 255);
-  font-family: azo-sans-web, sans-serif;
+@font-face {
+  font-family: 'apertureregular';
+  src: url('fonts/aperture2.0-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'azolthin';
+  src: url('fonts/Azo\ sans\ Thin.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'azoreg';
+  src: url('fonts/Azo\ sans\ Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'sdol';
+  src: url('fonts/SigilosDoOutroLado-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'montel';
+  src: url('fonts/Montserrat-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'montreg';
+  src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'good';
+  src: url('fonts/goodtimes.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+p.amostra {
+  position: relative;
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  font-family: good;
+  font-style: normal;
+  text-align: center;
+}
+
+p.blkq2 {
+  text-align: center;
+  padding: 35px;
+  right: 100px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  font-family: azolthin;
   font-style: normal;
 }
 
-a.normal {
-  position:relative;
-  margin: 5px;
-  color:rgb(255, 255, 255);
-  font-family: azo-sans-web, sans-serif;
+div.blkq {
+  top: 200px;
+  height: 700px;
+  position: relative;
+  padding: 0;
+}
+
+#citacao {
+  text-align: justify;
+}
+
+blockquote p {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: azolthin;
+  font-style: normal;
+  color: white;
+}
+
+ul.inf1 {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.inf2 {
+  display: inline-block;
+  right: 200px;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+}
+
+ol.inf {
+  display: inline-block;
+  right: 200px;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  color:white;
+}
+
+li.test {
+  float: left;
+  text-align: left;
+}
+
+ul.white {
+  color: white;
+  position: relative;
+  padding: 35px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  font-family: azolthin;
+  font-style: normal;
+}
+
+p.linha {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: azolthin;
+  font-style: normal;
+}
+
+h1.normal,
+h2.normal,
+h3.normal,
+h4.normal,
+h5.normal,
+h6.normal {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: azoreg;
+  font-style: normal;
+}
+
+h1.thin,
+h2.thin,
+h3.thin,
+h4.thin,
+h5.thin,
+h6.thin {
+  position: relative;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: azolthin;
+  font-style: normal;
+}
+
+h1.inf,
+h2.inf,
+h3.inf,
+h4.inf,
+h5.inf,
+h6.inf {
+  position: relative;
+  padding: 60px;
+  bottom: 40px;
+  color: rgb(255, 255, 255);
+  font-family: azolthin;
+  font-style: normal;
+  text-align: center;
+}
+
+div.h1txt {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
+div.ptxt {
+  width: 100%;
+  height: 150px;
+  left: 100px;
+  text-align: center;
+}
+
+p.thin {
+  position: relative;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: azolthin;
+  font-style: normal;
+}
+
+p.thinblock {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  left: 200px;
+  color: rgb(255, 255, 255);
+  font-family: azolthin;
+  font-style: normal;
+}
+
+p.thinlist {
+  position: relative;
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  font-family: azolthin;
+  font-style: normal;
+}
+
+.center {
+  margin: auto;
+  width: 10;
+  padding: 10px;
+}
+
+p.logo {
+  position: relative;
+  margin: auto;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  font-family: good;
   font-style: normal;
   font-weight: 200;
-  font-size: 17px;
+  font-size: 25px;
 }
 
-/*.blink {
-  position:relative;
+.blink {
+  position: relative;
   animation: blinker 2s linear infinite;
   color: rgb(255, 255, 255);
-  font-family: sans-serif;
+  font-family: sdol;
+  font-style: normal;
+  font-size: 20px;
+  top: 20px;
 }
+
 @keyframes blinker {
   50% {
-  opacity: 0;
+    opacity: 0;
+  }
 }
-}
-*/
 
 p.normal {
-  position:relative;
-  margin: 0px;
-  color:rgb(255, 255, 255);
+  position: relative;
+  margin: 20px;
+  color: rgb(255, 255, 255);
   font-family: azo-sans-web, sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 17px;
 }
 
-h1.bold {
-  position:relative;
-  margin: 5px;
-  color:rgb(255, 255, 255);
-  font-family: azo-sans-web, sans-serif;
-  font-style: bold;
-  font-weight: 200;
-  font-size: 17px;
+#background {
+  position: relative;
+
 }
 
-p.italic {
-  position:relative;
-  margin: 5px;
-  color:rgb(255, 255, 255);
-  font-family: azo-sans-web, sans-serif;
-  font-style: italic;
-  font-weight: 200;
-  font-size: 17px;
-}
-
-#background{
-  position:relative;
-  
-}
-
-header{
-  position:absolute;
-  top:0;
-  transition:all .2s ease-in-out;
-  z-index:1000;
+header {
+  position: sticky;
+  top: 0;
+  transition: all .1s ease-in-out;
+  z-index: 1000;
   height: 100px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.911);
   border-radius: 0 0 5px 5px;
   padding: 25px;
-  /*box-shadow:rgba(255, 255, 255, 0.322) 10px 10px 50px;*/
 }
 
 body {
   margin: 0;
-  font-family: azo-sans-web, sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 17px;
+  padding: 0;
+}
+
+.exercicio {
+  background-color: rgba(7, 7, 7, 0.486);
+  border-radius: 20px;
+  border: black;
+  width: auto;
+  height: 150px;
+  position: relative;
+  margin: 40px;
+}
+
+.info {
+  background-color: rgba(51, 51, 51, 0.555);
+  border-radius: 20px;
+  border: black;
+  width: auto;
+  height: 1400px;
+  position: relative;
+  margin: 40px;
 }
 
 #videobg {
@@ -97,9 +321,8 @@ body {
 }
 
 .content {
-  position: fixed;
+  position: sticky;
   bottom: 0;
-  background: rgb(0, 0, 0);
   width: 100%;
   padding: 20px;
 }

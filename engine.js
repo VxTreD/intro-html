@@ -5,6 +5,4 @@ function butao() {
 
 var botao = document.getElementById('butao');
 
-botao.addEventListener('click', butao);
-
-  
+botao.addEventListener('click', butao); 
