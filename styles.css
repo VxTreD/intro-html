@@ -110,7 +110,7 @@ ul.inf1 {
 ul.inf2 {
   display: inline-block;
   right: 200px;
-  list-style-type: none;
+  color:white;
   margin: 0;
   padding: 20px;
   overflow: hidden;
@@ -122,7 +122,7 @@ ol.inf {
   margin: 0;
   padding: 20px;
   overflow: hidden;
-  color:white;
+  color: white;
 }
 
 li.test {
